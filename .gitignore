@@ -1,0 +1,117 @@
+# ═════════════════════════════════════════════════════════════
+# ENVIRONMENT VARIABLES (SECRETS - NEVER PUSH!)
+# ═════════════════════════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# ═════════════════════════════════════════════════════════════
+# DEPENDENCIES (Auto-installed via npm)
+# ═════════════════════════════════════════════════════════════
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-shrinkwrap.json
+
+# ═════════════════════════════════════════════════════════════
+# BUILD OUTPUTS (Regenerated during build)
+# ═════════════════════════════════════════════════════════════
+dist/
+dist-admin/
+build/
+.next/
+out/
+
+# ═════════════════════════════════════════════════════════════
+# IDE & EDITOR
+# ═════════════════════════════════════════════════════════════
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vim
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# ═════════════════════════════════════════════════════════════
+# OPERATING SYSTEM
+# ═════════════════════════════════════════════════════════════
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ═════════════════════════════════════════════════════════════
+# LOGS
+# ═════════════════════════════════════════════════════════════
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ═════════════════════════════════════════════════════════════
+# TEMPORARY & CACHE
+# ═════════════════════════════════════════════════════════════
+.cache/
+.eslintcache
+.stylelintcache
+.prettierignore
+temp/
+tmp/
+*.tmp
+
+# ═════════════════════════════════════════════════════════════
+# TESTING
+# ═════════════════════════════════════════════════════════════
+coverage/
+.nyc_output/
+.mocha_output/
+test-results/
+
+# ═════════════════════════════════════════════════════════════
+# SECURITY (Private Keys, Certificates, Credentials)
+# ═════════════════════════════════════════════════════════════
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks
+*.p8
+*.p12
+
+# ═════════════════════════════════════════════════════════════
+# LOCAL FILES (Development uploads, sessions, etc.)
+# ═════════════════════════════════════════════════════════════
+uploads/
+backend/uploads/
+sessions/
+*.db
+*.sqlite
+*.sqlite3
+
+# ═════════════════════════════════════════════════════════════
+# VITE SPECIFIC
+# ═════════════════════════════════════════════════════════════
+.vite/
+
+# ═════════════════════════════════════════════════════════════
+# OS Lock Files
+# ═════════════════════════════════════════════════════════════
+.lock
+*.lock
